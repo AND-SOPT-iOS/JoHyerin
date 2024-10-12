@@ -6,30 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */; };
+		D0BD44FB2CBA5A5D00128E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */; };
+		D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */; };
+		D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */; };
+		D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */; };
+		D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */; };
+		D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EE2CBA5A5D00128E74 /* PracticeViewController_Closure.swift */; };
+		D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */; };
+		D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F12CBA5A5D00128E74 /* AppDelegate.swift */; };
+		D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */; };
+		D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F72CBA5A5D00128E74 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35th-SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController_Closure.swift; sourceTree = "<group>"; };
+		D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController_Delegate.swift; sourceTree = "<group>"; };
+		D0BD44EE2CBA5A5D00128E74 /* PracticeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_Closure.swift; sourceTree = "<group>"; };
+		D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_Delegate.swift; sourceTree = "<group>"; };
+		D0BD44F12CBA5A5D00128E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BD44F32CBA5A5D00128E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BD44F42CBA5A5D00128E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0BD44F72CBA5A5D00128E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D004F8B32CB1029400D5A2CD /* Exceptions for "35th-SOPT-Seminar" folder in "35th-SOPT-Seminar" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D004F8A02CB1029100D5A2CD /* 35th-SOPT-Seminar */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D004F8A32CB1029100D5A2CD /* 35th-SOPT-Seminar */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D004F8B32CB1029400D5A2CD /* Exceptions for "35th-SOPT-Seminar" folder in "35th-SOPT-Seminar" target */,
-			);
-			path = "35th-SOPT-Seminar";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D004F89E2CB1029100D5A2CD /* Frameworks */ = {
@@ -45,7 +50,7 @@
 		D004F8982CB1029100D5A2CD = {
 			isa = PBXGroup;
 			children = (
-				D004F8A32CB1029100D5A2CD /* 35th-SOPT-Seminar */,
+				D0BD44F82CBA5A5D00128E74 /* 35th-SOPT-Seminar */,
 				D004F8A22CB1029100D5A2CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +61,89 @@
 				D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BD44E82CBA5A5D00128E74 /* AppStore_Clone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppStore_Clone;
+			sourceTree = "<group>";
+		};
+		D0BD44EB2CBA5A5D00128E74 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */,
+				D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		D0BD44F02CBA5A5D00128E74 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44EE2CBA5A5D00128E74 /* PracticeViewController_Closure.swift */,
+				D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */,
+				D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */,
+				D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
+		D0BD44F82CBA5A5D00128E74 /* 35th-SOPT-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45072CBA5AA500128E74 /* Application */,
+				D0BD45052CBA5A6A00128E74 /* Global */,
+				D0BD45062CBA5A8B00128E74 /* Seminar */,
+				D0BD44E82CBA5A5D00128E74 /* AppStore_Clone */,
+				D0BD44F32CBA5A5D00128E74 /* Info.plist */,
+				D0BD44F72CBA5A5D00128E74 /* ViewController.swift */,
+			);
+			path = "35th-SOPT-Seminar";
+			sourceTree = "<group>";
+		};
+		D0BD45052CBA5A6A00128E74 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD450A2CBA5B1800128E74 /* Extensions */,
+				D0BD45092CBA5B0700128E74 /* Resource */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D0BD45062CBA5A8B00128E74 /* Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44EB2CBA5A5D00128E74 /* Week1 */,
+				D0BD44F02CBA5A5D00128E74 /* Week2 */,
+			);
+			path = Seminar;
+			sourceTree = "<group>";
+		};
+		D0BD45072CBA5AA500128E74 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44F12CBA5A5D00128E74 /* AppDelegate.swift */,
+				D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D0BD45092CBA5B0700128E74 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */,
+				D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D0BD450A2CBA5B1800128E74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +160,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				D004F8A32CB1029100D5A2CD /* 35th-SOPT-Seminar */,
 			);
 			name = "35th-SOPT-Seminar";
 			packageProductDependencies = (
@@ -122,6 +207,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */,
+				D0BD44FB2CBA5A5D00128E74 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +219,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */,
+				D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */,
+				D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */,
+				D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */,
+				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
+				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
+				D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */,
+				D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */,
+				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BD44F42CBA5A5D00128E74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D004F8B52CB1029400D5A2CD /* Debug */ = {
