@@ -18,6 +18,7 @@
 		D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F12CBA5A5D00128E74 /* AppDelegate.swift */; };
 		D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */; };
 		D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F72CBA5A5D00128E74 /* ViewController.swift */; };
+		D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD450F2CBA5BEF00128E74 /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D0BD44F42CBA5A5D00128E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0BD44F72CBA5A5D00128E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0BD450F2CBA5BEF00128E74 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		D0BD450A2CBA5B1800128E74 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D0BD450F2CBA5BEF00128E74 /* UIView+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */,
 				D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */,
 				D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */,
+				D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */,
 				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
 				D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */,
