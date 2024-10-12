@@ -83,12 +83,12 @@ playground.xcworkspace
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
 # Packages/
 # Package.pins
+# Package.resolved
 # *.xcodeproj
 # Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
 # hence it is not needed unless you have added a package configuration file to your project
 # .swiftpm
 
-*.resolved
 .build/
 
 # CocoaPods
@@ -138,9 +138,5 @@ iOSInjectionProject/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
-*.xcuserstate
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,swift,xcode,cocoapods
-
-###Others###
-.DS_Store
