@@ -19,6 +19,7 @@
 		D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */; };
 		D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F72CBA5A5D00128E74 /* ViewController.swift */; };
 		D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD450F2CBA5BEF00128E74 /* UIView+.swift */; };
+		D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */; };
 		D0BD45152CBA5D5600128E74 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0BD45142CBA5D5600128E74 /* SnapKit */; };
 		D0BD45182CBA5DA900128E74 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D0BD45172CBA5DA900128E74 /* Then */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0BD44F72CBA5A5D00128E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0BD450F2CBA5BEF00128E74 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPracticeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */,
 				D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */,
 				D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */,
+				D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */,
 			);
 			path = Week2;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */,
 				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
+				D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */,
 				D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */,
 				D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */,
 				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
