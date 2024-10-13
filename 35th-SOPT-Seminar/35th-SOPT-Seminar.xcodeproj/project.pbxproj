@@ -106,7 +106,6 @@
 				D0BD45052CBA5A6A00128E74 /* Global */,
 				D0BD45062CBA5A8B00128E74 /* Seminar */,
 				D0BD44E82CBA5A5D00128E74 /* AppStore_Clone */,
-				D0BD44F32CBA5A5D00128E74 /* Info.plist */,
 				D0BD44F72CBA5A5D00128E74 /* ViewController.swift */,
 			);
 			path = "35th-SOPT-Seminar";
@@ -117,6 +116,7 @@
 			children = (
 				D0BD450A2CBA5B1800128E74 /* Extensions */,
 				D0BD45092CBA5B0700128E74 /* Resource */,
+				D0BD45192CBBEF1400128E74 /* Supporting Files */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -154,6 +154,14 @@
 				D0BD450F2CBA5BEF00128E74 /* UIView+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0BD45192CBBEF1400128E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44F32CBA5A5D00128E74 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +280,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X395BM5WW7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "35th-SOPT-Seminar/Info.plist";
+				INFOPLIST_FILE = "35th-SOPT-Seminar/Global/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +307,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X395BM5WW7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "35th-SOPT-Seminar/Info.plist";
+				INFOPLIST_FILE = "35th-SOPT-Seminar/Global/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
