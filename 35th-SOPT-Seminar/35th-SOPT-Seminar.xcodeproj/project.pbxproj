@@ -6,36 +6,63 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */; };
+		D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */; };
+		D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */; };
+		D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */; };
+		D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */; };
+		D0BD44FB2CBA5A5D00128E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */; };
+		D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */; };
+		D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */; };
+		D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */; };
+		D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */; };
+		D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EE2CBA5A5D00128E74 /* PracticeViewController_Closure.swift */; };
+		D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */; };
+		D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F12CBA5A5D00128E74 /* AppDelegate.swift */; };
+		D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */; };
+		D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44F72CBA5A5D00128E74 /* ViewController.swift */; };
+		D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD450F2CBA5BEF00128E74 /* UIView+.swift */; };
+		D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */; };
+		D0BD45152CBA5D5600128E74 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0BD45142CBA5D5600128E74 /* SnapKit */; };
+		D0BD45182CBA5DA900128E74 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D0BD45172CBA5DA900128E74 /* Then */; };
+		D0BD45252CCAC9CE00128E74 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45242CCAC9C500128E74 /* PracticeView.swift */; };
+		D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45262CCAD1D200128E74 /* PracticeModel.swift */; };
+		D0BD45292CCAD41100128E74 /* PracticeViewController_MVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45282CCAD40400128E74 /* PracticeViewController_MVC.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35th-SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModel_MVVM.swift; sourceTree = "<group>"; };
+		D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView_MVVM.swift; sourceTree = "<group>"; };
+		D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_MVVM.swift; sourceTree = "<group>"; };
+		D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController_Closure.swift; sourceTree = "<group>"; };
+		D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController_Delegate.swift; sourceTree = "<group>"; };
+		D0BD44EE2CBA5A5D00128E74 /* PracticeViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_Closure.swift; sourceTree = "<group>"; };
+		D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_Delegate.swift; sourceTree = "<group>"; };
+		D0BD44F12CBA5A5D00128E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BD44F32CBA5A5D00128E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BD44F42CBA5A5D00128E74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0BD44F72CBA5A5D00128E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0BD450F2CBA5BEF00128E74 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPracticeViewController.swift; sourceTree = "<group>"; };
+		D0BD45242CCAC9C500128E74 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		D0BD45262CCAD1D200128E74 /* PracticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModel.swift; sourceTree = "<group>"; };
+		D0BD45282CCAD40400128E74 /* PracticeViewController_MVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_MVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D004F8B32CB1029400D5A2CD /* Exceptions for "35th-SOPT-Seminar" folder in "35th-SOPT-Seminar" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D004F8A02CB1029100D5A2CD /* 35th-SOPT-Seminar */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D004F8A32CB1029100D5A2CD /* 35th-SOPT-Seminar */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D004F8B32CB1029400D5A2CD /* Exceptions for "35th-SOPT-Seminar" folder in "35th-SOPT-Seminar" target */,
-			);
-			path = "35th-SOPT-Seminar";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D004F89E2CB1029100D5A2CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BD45152CBA5D5600128E74 /* SnapKit in Frameworks */,
+				D0BD45182CBA5DA900128E74 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +72,7 @@
 		D004F8982CB1029100D5A2CD = {
 			isa = PBXGroup;
 			children = (
-				D004F8A32CB1029100D5A2CD /* 35th-SOPT-Seminar */,
+				D0BD44F82CBA5A5D00128E74 /* 35th-SOPT-Seminar */,
 				D004F8A22CB1029100D5A2CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +83,170 @@
 				D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D05ADF402CCB7B3C00D819A5 /* MVVM Practice */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF412CCB7B5900D819A5 /* Model */,
+				D05ADF432CCB7B6600D819A5 /* View */,
+				D05ADF422CCB7B5F00D819A5 /* ViewModel */,
+			);
+			path = "MVVM Practice";
+			sourceTree = "<group>";
+		};
+		D05ADF412CCB7B5900D819A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D05ADF422CCB7B5F00D819A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D05ADF432CCB7B6600D819A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */,
+				D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0BD44E82CBA5A5D00128E74 /* AppStore_Clone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppStore_Clone;
+			sourceTree = "<group>";
+		};
+		D0BD44EB2CBA5A5D00128E74 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */,
+				D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		D0BD44F02CBA5A5D00128E74 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44EE2CBA5A5D00128E74 /* PracticeViewController_Closure.swift */,
+				D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */,
+				D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */,
+				D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */,
+				D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */,
+				D0BD45202CCAC98A00128E74 /* MVC Practice */,
+				D05ADF402CCB7B3C00D819A5 /* MVVM Practice */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
+		D0BD44F82CBA5A5D00128E74 /* 35th-SOPT-Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45072CBA5AA500128E74 /* Application */,
+				D0BD45052CBA5A6A00128E74 /* Global */,
+				D0BD45062CBA5A8B00128E74 /* Seminar */,
+				D0BD44E82CBA5A5D00128E74 /* AppStore_Clone */,
+				D0BD44F72CBA5A5D00128E74 /* ViewController.swift */,
+			);
+			path = "35th-SOPT-Seminar";
+			sourceTree = "<group>";
+		};
+		D0BD45052CBA5A6A00128E74 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD450A2CBA5B1800128E74 /* Extensions */,
+				D0BD45092CBA5B0700128E74 /* Resource */,
+				D0BD45192CBBEF1400128E74 /* Supporting Files */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		D0BD45062CBA5A8B00128E74 /* Seminar */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44EB2CBA5A5D00128E74 /* Week1 */,
+				D0BD44F02CBA5A5D00128E74 /* Week2 */,
+			);
+			path = Seminar;
+			sourceTree = "<group>";
+		};
+		D0BD45072CBA5AA500128E74 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44F12CBA5A5D00128E74 /* AppDelegate.swift */,
+				D0BD44F62CBA5A5D00128E74 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D0BD45092CBA5B0700128E74 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */,
+				D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D0BD450A2CBA5B1800128E74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD450F2CBA5BEF00128E74 /* UIView+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0BD45192CBBEF1400128E74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD44F32CBA5A5D00128E74 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0BD45202CCAC98A00128E74 /* MVC Practice */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45212CCAC9AB00128E74 /* Model */,
+				D0BD45222CCAC9B100128E74 /* View */,
+				D0BD45232CCAC9B500128E74 /* ViewController */,
+			);
+			path = "MVC Practice";
+			sourceTree = "<group>";
+		};
+		D0BD45212CCAC9AB00128E74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45262CCAD1D200128E74 /* PracticeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0BD45222CCAC9B100128E74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45242CCAC9C500128E74 /* PracticeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0BD45232CCAC9B500128E74 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45282CCAD40400128E74 /* PracticeViewController_MVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,11 +264,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				D004F8A32CB1029100D5A2CD /* 35th-SOPT-Seminar */,
-			);
 			name = "35th-SOPT-Seminar";
 			packageProductDependencies = (
+				D0BD45142CBA5D5600128E74 /* SnapKit */,
+				D0BD45172CBA5DA900128E74 /* Then */,
 			);
 			productName = "35th-SOPT-Seminar";
 			productReference = D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */;
@@ -107,6 +297,10 @@
 			);
 			mainGroup = D004F8982CB1029100D5A2CD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D0BD45162CBA5DA900128E74 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D004F8A22CB1029100D5A2CD /* Products */;
 			projectDirPath = "";
@@ -122,6 +316,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */,
+				D0BD44FB2CBA5A5D00128E74 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +328,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */,
+				D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */,
+				D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */,
+				D0BD45292CCAD41100128E74 /* PracticeViewController_MVC.swift in Sources */,
+				D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */,
+				D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */,
+				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
+				D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */,
+				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
+				D0BD45252CCAC9CE00128E74 /* PracticeView.swift in Sources */,
+				D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */,
+				D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */,
+				D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */,
+				D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */,
+				D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */,
+				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
+				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,
+				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BD44F42CBA5A5D00128E74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D004F8B52CB1029400D5A2CD /* Debug */ = {
@@ -147,7 +372,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X395BM5WW7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "35th-SOPT-Seminar/Info.plist";
+				INFOPLIST_FILE = "35th-SOPT-Seminar/Global/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -174,7 +399,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X395BM5WW7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "35th-SOPT-Seminar/Info.plist";
+				INFOPLIST_FILE = "35th-SOPT-Seminar/Global/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -333,6 +558,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		D0BD45162CBA5DA900128E74 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0BD45142CBA5D5600128E74 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D0BD45172CBA5DA900128E74 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0BD45162CBA5DA900128E74 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D004F8992CB1029100D5A2CD /* Project object */;
 }

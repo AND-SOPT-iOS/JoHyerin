@@ -1,13 +1,19 @@
 //
-//  DetailViewController.swift
+//  NicknameViewController_Delegate.swift
 //  35th-SOPT-Seminar
 //
-//  Created by 조혜린 on 10/5/24.
+//  Created by 조혜린 on 10/12/24.
 //
 
 import UIKit
 
-final class DetailViewController: UIViewController {
+protocol NicknameDelegate: AnyObject {
+    func setNickname(nickname: String)
+}
+
+final class NicknameViewController_Delegate: UIViewController {
+    
+    weak var delegate: NicknameDelegate?
     
     private var recievedTitle: String?
     
@@ -26,6 +32,22 @@ final class DetailViewController: UIViewController {
         return button
     }()
     
+    private lazy var nicknameTextField: UITextField = {
+        let textField = UITextField()
+        textField.placeholder = "닉네임을 입력해주세요"
+        textField.borderStyle = .roundedRect
+        return textField
+    }()
+    
+    private lazy var settingButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("데이터 전달", for: .normal)
+        button.backgroundColor = .tintColor
+        button.setTitleColor(.white, for: .normal)
+        button.addTarget(self, action: #selector(settingButtonTapped), for: .touchUpInside)
+        return button
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,7 +61,7 @@ final class DetailViewController: UIViewController {
     }
     
     private func setupHierarchy() {
-        [titleLabel, backButton].forEach {
+        [titleLabel, backButton, nicknameTextField, settingButton].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
             self.view.addSubview($0)
         }
@@ -61,6 +83,22 @@ final class DetailViewController: UIViewController {
                 backButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 backButton.heightAnchor.constraint(equalToConstant: 44),
                 backButton.widthAnchor.constraint(equalToConstant: 300),
+                
+                nicknameTextField.topAnchor.constraint(
+                    equalTo: backButton.bottomAnchor,
+                    constant: 20
+                ),
+                nicknameTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                nicknameTextField.heightAnchor.constraint(equalToConstant: 44),
+                nicknameTextField.widthAnchor.constraint(equalToConstant: 300),
+                
+                settingButton.topAnchor.constraint(
+                    equalTo: nicknameTextField.bottomAnchor,
+                    constant: 20
+                ),
+                settingButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                settingButton.heightAnchor.constraint(equalToConstant: 44),
+                settingButton.widthAnchor.constraint(equalToConstant: 300)
             ]
         )
     }
@@ -80,5 +118,10 @@ final class DetailViewController: UIViewController {
         } else {
             self.navigationController?.popViewController(animated: true)
         }
+    }
+    
+    @objc func settingButtonTapped() {
+        let nicknameText = nicknameTextField.text
+        delegate?.setNickname(nickname: nicknameText ?? "")
     }
 }

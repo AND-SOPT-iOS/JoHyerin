@@ -10,8 +10,8 @@ import UIKit
 class PracticeViewController: UIViewController {
     
     private var isNavigationMode = true
-        
-    private let titleLabel: UILabel = {
+    
+    private let navigationModeLabel: UILabel = {
         let label = UILabel()
         label.text = "Navigation Mode"
         label.font = .systemFont(ofSize: 16)
@@ -25,8 +25,19 @@ class PracticeViewController: UIViewController {
         textField.clearButtonMode = .whileEditing
         textField.layer.borderColor = UIColor.gray.cgColor
         textField.layer.borderWidth = 1
+        textField.layer.cornerRadius = 5
         
         return textField
+    }()
+    
+    private let contentTextView: UITextView = {
+        let textView = UITextView()
+        textView.font = .systemFont(ofSize: 14)
+        textView.layer.borderColor = UIColor.gray.cgColor
+        textView.layer.borderWidth = 1
+        textView.layer.cornerRadius = 5
+        
+        return textView
     }()
     
     private lazy var nextButton: UIButton = {
@@ -62,7 +73,7 @@ class PracticeViewController: UIViewController {
     }
     
     private func setupHierarchy() {
-        [titleLabel, titleTextField, nextButton, changeModeButton].forEach {
+        [navigationModeLabel, titleTextField, contentTextView, nextButton, changeModeButton].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
             self.view.addSubview($0)
         }
@@ -71,14 +82,14 @@ class PracticeViewController: UIViewController {
     private func setupLayout() {
         NSLayoutConstraint.activate(
             [
-                titleLabel.topAnchor.constraint(
+                navigationModeLabel.topAnchor.constraint(
                     equalTo: view.safeAreaLayoutGuide.topAnchor,
                     constant: 20
                 ),
-                titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                navigationModeLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 
                 titleTextField.topAnchor.constraint(
-                    equalTo: titleLabel.bottomAnchor,
+                    equalTo: navigationModeLabel.bottomAnchor,
                     constant: 20
                 ),
                 titleTextField.leadingAnchor.constraint(
@@ -91,8 +102,24 @@ class PracticeViewController: UIViewController {
                 ),
                 titleTextField.heightAnchor.constraint(equalToConstant: 40),
                 
-                nextButton.topAnchor.constraint(
+                contentTextView.topAnchor.constraint(
                     equalTo: titleTextField.bottomAnchor,
+                    constant: 20
+                ),
+                contentTextView.leadingAnchor.constraint(
+                    equalTo: view.leadingAnchor,
+                    constant: 20
+                ),
+                contentTextView.trailingAnchor.constraint(
+                    equalTo: view.trailingAnchor,
+                    constant: -20
+                ),
+                contentTextView.heightAnchor.constraint(
+                    equalToConstant: 100
+                ),
+                
+                nextButton.topAnchor.constraint(
+                    equalTo: contentTextView.bottomAnchor,
                     constant: 20
                 ),
                 nextButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -113,8 +140,8 @@ class PracticeViewController: UIViewController {
     @objc private func nextButtonTapped() {
         let detailViewController = DetailViewController()
         
-        if let title = titleTextField.text {
-            detailViewController.bindData(title: title)
+        if let title = titleTextField.text, let content = contentTextView.text {
+//            detailViewController.bindData(title: title, content: content)
         }
         
         isNavigationMode ? self.navigationController?.pushViewController(detailViewController, animated: true) : self.present(detailViewController, animated: true)
@@ -122,7 +149,7 @@ class PracticeViewController: UIViewController {
     
     @objc private func changeModeButtonTapped() {
         isNavigationMode.toggle()
-        titleLabel.text = isNavigationMode ? "Navigation Mode" : "Presentation Mode"
+        navigationModeLabel.text = isNavigationMode ? "Navigation Mode" : "Presentation Mode"
     }
 }
 
