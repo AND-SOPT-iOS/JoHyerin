@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */; };
+		D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */; };
+		D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */; };
+		D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */; };
 		D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */; };
 		D0BD44FB2CBA5A5D00128E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */; };
 		D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */; };
@@ -22,10 +26,17 @@
 		D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */; };
 		D0BD45152CBA5D5600128E74 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D0BD45142CBA5D5600128E74 /* SnapKit */; };
 		D0BD45182CBA5DA900128E74 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D0BD45172CBA5DA900128E74 /* Then */; };
+		D0BD45252CCAC9CE00128E74 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45242CCAC9C500128E74 /* PracticeView.swift */; };
+		D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45262CCAD1D200128E74 /* PracticeModel.swift */; };
+		D0BD45292CCAD41100128E74 /* PracticeViewController_MVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD45282CCAD40400128E74 /* PracticeViewController_MVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35th-SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModel_MVVM.swift; sourceTree = "<group>"; };
+		D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView_MVVM.swift; sourceTree = "<group>"; };
+		D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_MVVM.swift; sourceTree = "<group>"; };
+		D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
 		D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController_Closure.swift; sourceTree = "<group>"; };
@@ -40,6 +51,9 @@
 		D0BD44F72CBA5A5D00128E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0BD450F2CBA5BEF00128E74 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPracticeViewController.swift; sourceTree = "<group>"; };
+		D0BD45242CCAC9C500128E74 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		D0BD45262CCAD1D200128E74 /* PracticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModel.swift; sourceTree = "<group>"; };
+		D0BD45282CCAD40400128E74 /* PracticeViewController_MVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_MVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D05ADF402CCB7B3C00D819A5 /* MVVM Practice */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF412CCB7B5900D819A5 /* Model */,
+				D05ADF432CCB7B6600D819A5 /* View */,
+				D05ADF422CCB7B5F00D819A5 /* ViewModel */,
+			);
+			path = "MVVM Practice";
+			sourceTree = "<group>";
+		};
+		D05ADF412CCB7B5900D819A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D05ADF422CCB7B5F00D819A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D05ADF432CCB7B6600D819A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */,
+				D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D0BD44E82CBA5A5D00128E74 /* AppStore_Clone */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +144,8 @@
 				D0BD44EF2CBA5A5D00128E74 /* PracticeViewController_Delegate.swift */,
 				D0BD44ED2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift */,
 				D0BD45112CBA5C2200128E74 /* ScrollViewPracticeViewController.swift */,
+				D0BD45202CCAC98A00128E74 /* MVC Practice */,
+				D05ADF402CCB7B3C00D819A5 /* MVVM Practice */,
 			);
 			path = Week2;
 			sourceTree = "<group>";
@@ -162,6 +213,40 @@
 				D0BD44F32CBA5A5D00128E74 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0BD45202CCAC98A00128E74 /* MVC Practice */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45212CCAC9AB00128E74 /* Model */,
+				D0BD45222CCAC9B100128E74 /* View */,
+				D0BD45232CCAC9B500128E74 /* ViewController */,
+			);
+			path = "MVC Practice";
+			sourceTree = "<group>";
+		};
+		D0BD45212CCAC9AB00128E74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45262CCAD1D200128E74 /* PracticeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0BD45222CCAC9B100128E74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45242CCAC9C500128E74 /* PracticeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0BD45232CCAC9B500128E74 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD45282CCAD40400128E74 /* PracticeViewController_MVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,13 +331,20 @@
 				D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */,
 				D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */,
 				D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */,
+				D0BD45292CCAD41100128E74 /* PracticeViewController_MVC.swift in Sources */,
 				D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */,
 				D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */,
 				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
+				D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
+				D0BD45252CCAC9CE00128E74 /* PracticeView.swift in Sources */,
 				D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */,
 				D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */,
 				D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */,
+				D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */,
+				D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */,
+				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
+				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,
 				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

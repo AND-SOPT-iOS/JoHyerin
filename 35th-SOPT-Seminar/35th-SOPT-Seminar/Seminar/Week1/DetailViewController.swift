@@ -10,10 +10,19 @@ import UIKit
 final class DetailViewController: UIViewController {
     
     private var recievedTitle: String?
+    private var recievedContent: String?
     
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.font = .systemFont(ofSize: 16, weight: .semibold)
+        return label
+    }()
+    
+    private let contentLabel: UILabel = {
+        let label = UILabel()
+        label.font = .systemFont(ofSize: 12, weight: .regular)
+        label.numberOfLines = 0
+        label.textAlignment = .left
         return label
     }()
     
@@ -39,7 +48,7 @@ final class DetailViewController: UIViewController {
     }
     
     private func setupHierarchy() {
-        [titleLabel, backButton].forEach {
+        [titleLabel, contentLabel, backButton].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
             self.view.addSubview($0)
         }
@@ -54,8 +63,14 @@ final class DetailViewController: UIViewController {
                 ),
                 titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 
-                backButton.topAnchor.constraint(
+                contentLabel.topAnchor.constraint(
                     equalTo: titleLabel.bottomAnchor,
+                    constant: 20
+                ),
+                contentLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                
+                backButton.topAnchor.constraint(
+                    equalTo: contentLabel.bottomAnchor,
                     constant: 20
                 ),
                 backButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -67,10 +82,12 @@ final class DetailViewController: UIViewController {
     
     func updateUI() {
         titleLabel.text = recievedTitle
+        contentLabel.text = recievedContent
     }
     
-    func bindData(title: String) {
-        recievedTitle = title
+    func bindData(data: PracticeModel_MVVM) {
+        recievedTitle = data.nickname
+        recievedContent = data.content
         updateUI()
     }
     
