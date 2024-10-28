@@ -11,6 +11,14 @@
 		D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */; };
 		D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */; };
 		D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */; };
+		D05ADF4E2CCCB51200D819A5 /* TableViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF4D2CCCB4EA00D819A5 /* TableViewPractice.swift */; };
+		D05ADF502CCCB5BA00D819A5 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF4F2CCCB5AE00D819A5 /* App.swift */; };
+		D05ADF522CCCB66500D819A5 /* DownloadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF512CCCB65300D819A5 /* DownloadState.swift */; };
+		D05ADF542CCCB81A00D819A5 /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF532CCCB81500D819A5 /* ChartCell.swift */; };
+		D05ADF562CCCB95C00D819A5 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF552CCCB95600D819A5 /* UIStackView+.swift */; };
+		D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF572CCCC55500D819A5 /* CollectionViewPractice.swift */; };
+		D05ADF5C2CCCC84500D819A5 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF5B2CCCC84500D819A5 /* PhotoCell.swift */; };
+		D05ADF5E2CCCCF3E00D819A5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF5D2CCCCF3900D819A5 /* Photo.swift */; };
 		D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */; };
 		D0BD44FB2CBA5A5D00128E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */; };
 		D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */; };
@@ -37,6 +45,14 @@
 		D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView_MVVM.swift; sourceTree = "<group>"; };
 		D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_MVVM.swift; sourceTree = "<group>"; };
 		D05ADF4A2CCB83B300D819A5 /* PracticeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewModel.swift; sourceTree = "<group>"; };
+		D05ADF4D2CCCB4EA00D819A5 /* TableViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPractice.swift; sourceTree = "<group>"; };
+		D05ADF4F2CCCB5AE00D819A5 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		D05ADF512CCCB65300D819A5 /* DownloadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadState.swift; sourceTree = "<group>"; };
+		D05ADF532CCCB81500D819A5 /* ChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		D05ADF552CCCB95600D819A5 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		D05ADF572CCCC55500D819A5 /* CollectionViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPractice.swift; sourceTree = "<group>"; };
+		D05ADF5B2CCCC84500D819A5 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		D05ADF5D2CCCCF3900D819A5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController_Closure.swift; sourceTree = "<group>"; };
@@ -120,6 +136,36 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D05ADF4C2CCCB1DE00D819A5 /* Week3 */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF592CCCC76E00D819A5 /* TableView */,
+				D05ADF5A2CCCC77900D819A5 /* CollectionView */,
+			);
+			path = Week3;
+			sourceTree = "<group>";
+		};
+		D05ADF592CCCC76E00D819A5 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF532CCCB81500D819A5 /* ChartCell.swift */,
+				D05ADF512CCCB65300D819A5 /* DownloadState.swift */,
+				D05ADF4F2CCCB5AE00D819A5 /* App.swift */,
+				D05ADF4D2CCCB4EA00D819A5 /* TableViewPractice.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		D05ADF5A2CCCC77900D819A5 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D05ADF5D2CCCCF3900D819A5 /* Photo.swift */,
+				D05ADF5B2CCCC84500D819A5 /* PhotoCell.swift */,
+				D05ADF572CCCC55500D819A5 /* CollectionViewPractice.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		D0BD44E82CBA5A5D00128E74 /* AppStore_Clone */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +223,7 @@
 			children = (
 				D0BD44EB2CBA5A5D00128E74 /* Week1 */,
 				D0BD44F02CBA5A5D00128E74 /* Week2 */,
+				D05ADF4C2CCCB1DE00D819A5 /* Week3 */,
 			);
 			path = Seminar;
 			sourceTree = "<group>";
@@ -202,6 +249,7 @@
 		D0BD450A2CBA5B1800128E74 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D05ADF552CCCB95600D819A5 /* UIStackView+.swift */,
 				D0BD450F2CBA5BEF00128E74 /* UIView+.swift */,
 			);
 			path = Extensions;
@@ -328,24 +376,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05ADF542CCCB81A00D819A5 /* ChartCell.swift in Sources */,
+				D05ADF5C2CCCC84500D819A5 /* PhotoCell.swift in Sources */,
 				D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */,
 				D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */,
 				D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */,
 				D0BD45292CCAD41100128E74 /* PracticeViewController_MVC.swift in Sources */,
+				D05ADF5E2CCCCF3E00D819A5 /* Photo.swift in Sources */,
 				D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */,
 				D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */,
 				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
 				D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */,
+				D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
 				D0BD45252CCAC9CE00128E74 /* PracticeView.swift in Sources */,
 				D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */,
+				D05ADF522CCCB66500D819A5 /* DownloadState.swift in Sources */,
 				D0BD45022CBA5A5D00128E74 /* AppDelegate.swift in Sources */,
+				D05ADF4E2CCCB51200D819A5 /* TableViewPractice.swift in Sources */,
+				D05ADF502CCCB5BA00D819A5 /* App.swift in Sources */,
 				D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */,
 				D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */,
 				D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */,
 				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
 				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,
 				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
+				D05ADF562CCCB95C00D819A5 /* UIStackView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
