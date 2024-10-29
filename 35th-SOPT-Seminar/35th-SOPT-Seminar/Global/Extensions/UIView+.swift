@@ -27,4 +27,13 @@ extension UIView {
             layer.maskedCorners = CACornerMask(arrayLiteral: maskedCorners)
         }
     }
+    
+    /// view의 테두리 값 설정
+    /// - Parameters:
+    ///   - width: 두께
+    ///   - color: 색
+    func makeBorder(width: CGFloat, color: UIColor) {
+        layer.borderWidth = width
+        layer.borderColor = color.cgColor
+    }
 }
