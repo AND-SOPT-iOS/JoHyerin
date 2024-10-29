@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04DE9972CD14E150017478B /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9962CD14E110017478B /* UIButton+.swift */; };
+		D0581C1A2CD1257600D0BA63 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C192CD1257100D0BA63 /* UILabel+.swift */; };
 		D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */; };
 		D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */; };
 		D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35th-SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04DE9962CD14E110017478B /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		D0581C192CD1257100D0BA63 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModel_MVVM.swift; sourceTree = "<group>"; };
 		D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView_MVVM.swift; sourceTree = "<group>"; };
 		D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_MVVM.swift; sourceTree = "<group>"; };
@@ -399,7 +403,9 @@
 				D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */,
 				D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */,
 				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
+				D04DE9972CD14E150017478B /* UIButton+.swift in Sources */,
 				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,
+				D0581C1A2CD1257600D0BA63 /* UILabel+.swift in Sources */,
 				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
 				D05ADF562CCCB95C00D819A5 /* UIStackView+.swift in Sources */,
 			);
