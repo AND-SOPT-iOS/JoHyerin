@@ -10,6 +10,7 @@
 		D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */; };
 		D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */; };
 		D01362E02CD50C890027E1CB /* SecondPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */; };
+		D01362EF2CD54F4E0027E1CB /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362EE2CD54F470027E1CB /* NSObject+.swift */; };
 		D04DE9932CD136D00017478B /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9922CD136D00017478B /* ReviewView.swift */; };
 		D04DE9972CD14E150017478B /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9962CD14E110017478B /* UIButton+.swift */; };
 		D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C092CD08B2200D0BA63 /* AppDetailView.swift */; };
@@ -57,6 +58,7 @@
 		D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourcePractice.swift; sourceTree = "<group>"; };
 		D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPracticeCell.swift; sourceTree = "<group>"; };
 		D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPracticeCell.swift; sourceTree = "<group>"; };
+		D01362EE2CD54F470027E1CB /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
 		D04DE9922CD136D00017478B /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		D04DE9962CD14E110017478B /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		D0581C092CD08B2200D0BA63 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
@@ -342,6 +344,7 @@
 		D0BD450A2CBA5B1800128E74 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D01362EE2CD54F470027E1CB /* NSObject+.swift */,
 				D0BD450F2CBA5BEF00128E74 /* UIView+.swift */,
 				D05ADF552CCCB95600D819A5 /* UIStackView+.swift */,
 				D0581C192CD1257100D0BA63 /* UILabel+.swift */,
@@ -504,6 +507,7 @@
 				D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */,
 				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
 				D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */,
+				D01362EF2CD54F4E0027E1CB /* NSObject+.swift in Sources */,
 				D04DE9972CD14E150017478B /* UIButton+.swift in Sources */,
 				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,
 				D0581C1A2CD1257600D0BA63 /* UILabel+.swift in Sources */,
