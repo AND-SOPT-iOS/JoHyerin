@@ -39,11 +39,11 @@ extension PreviewView {
     // MARK: - Layout
     
     private func setupStyle() {
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         
         previewLabel.do {
             $0.text = "미리 보기"
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 20, weight: .bold)
         }
         
@@ -55,12 +55,12 @@ extension PreviewView {
         
         iPhoneIconView.do {
             $0.image = UIImage(systemName: "iphone")
-            $0.tintColor = .lightGray
+            $0.tintColor = .systemGray4
         }
         
         iPhoneLabel.do {
             $0.text = "iPhone"
-            $0.textColor = .lightGray
+            $0.textColor = .systemGray4
             $0.font = .systemFont(ofSize: 12, weight: .semibold)
         }
     }

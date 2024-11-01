@@ -49,11 +49,11 @@ extension ReviewView {
     // MARK: - Layout
     
     private func setupStyle() {
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         
         evaluationReviewLabel.do {
             $0.text = "평가 및 리뷰"
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 20, weight: .bold)
         }
         
@@ -65,7 +65,7 @@ extension ReviewView {
         
         ratingScoreLabel.do {
             $0.text = "4.4"
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 70, weight: .heavy)
         }
         
@@ -75,7 +75,7 @@ extension ReviewView {
         
         descriptionLabel.do {
             $0.text = "8.4만개의 평가"
-            $0.textColor = .lightGray
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 14, weight: .semibold)
         }
         
@@ -88,7 +88,7 @@ extension ReviewView {
         
         mostHelpfulReviewLabel.do {
             $0.text = "가장 도움이 되는 리뷰"
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 16, weight: .regular)
         }
         
@@ -99,7 +99,7 @@ extension ReviewView {
         
         evaluateLabel.do {
             $0.text = "탭하여 평가하기"
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 16, weight: .regular)
         }
         

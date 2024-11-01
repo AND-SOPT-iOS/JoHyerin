@@ -46,11 +46,11 @@ extension AppDetailView {
     // MARK: - Layout
     
     private func setupStyle() {
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         
         [deviderView1, deviderView2, deviderView3].forEach {
             $0.do {
-                $0.backgroundColor = .lightGray
+                $0.backgroundColor = .systemGray4
             }
         }
     }

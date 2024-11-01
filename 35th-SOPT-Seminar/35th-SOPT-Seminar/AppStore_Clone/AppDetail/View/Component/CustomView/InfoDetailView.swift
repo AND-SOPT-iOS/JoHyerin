@@ -38,23 +38,23 @@ extension InfoDetailView {
     // MARK: - Layout
     
     private func setupStyle(titleText: String, imageNameText: String, subText: String) {
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         
         titleLabel.do {
             $0.text = titleText
-            $0.textColor = .lightGray
+            $0.textColor = .label
             $0.textAlignment = .center
             $0.font = .systemFont(ofSize: 10)
         }
         
         mainImageView.do {
             $0.image = UIImage(systemName: imageNameText, withConfiguration: UIImage.SymbolConfiguration(weight: .bold))
-            $0.tintColor = .darkGray
+            $0.tintColor = .systemGray
         }
         
         subLabel.do {
             $0.text = subText
-            $0.textColor = .lightGray
+            $0.textColor = .systemGray4
             $0.textAlignment = .center
             $0.font = .systemFont(ofSize: 10)
         }

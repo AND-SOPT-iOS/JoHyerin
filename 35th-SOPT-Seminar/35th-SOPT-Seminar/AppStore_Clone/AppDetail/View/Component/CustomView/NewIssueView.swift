@@ -44,11 +44,11 @@ extension NewIssueView {
     // MARK: - Layout
     
     private func setupStyle() {
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         
         newIssueLabel.do {
             $0.text = "새로운 소식"
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 20, weight: .bold)
         }
         
@@ -60,20 +60,20 @@ extension NewIssueView {
         
         versionLabel.do {
             $0.text = "버전 5.186.0"
-            $0.textColor = .lightGray
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 12)
         }
         
         updateAtLabel.do {
             $0.text = "5일 전"
-            $0.textColor = .lightGray
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 12)
         }
         
         updateContentLabel.do {
             $0.text = "• 구석구석 숨어있던 버그들을 잡았어요. 또 다른 버그가 나타나면 토스 고객센터를 찾아주세요. 늘 열려있답니다. 365일 24시간 언제든지요."
             $0.numberOfLines = 2
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 12)
             $0.setLineHeight(percentage: 150)
         }

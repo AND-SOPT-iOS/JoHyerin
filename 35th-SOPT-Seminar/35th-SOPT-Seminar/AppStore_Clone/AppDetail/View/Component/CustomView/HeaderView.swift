@@ -42,7 +42,7 @@ extension HeaderView {
     // MARK: - Layout
     
     private func setupStyle() {
-        backgroundColor = .white
+        backgroundColor = .systemBackground
         
         appIconImageView.do {
             $0.image = .iconToss
@@ -59,13 +59,13 @@ extension HeaderView {
         
         appNameLabel.do {
             $0.text = "토스"
-            $0.textColor = .black
+            $0.textColor = .label
             $0.font = .systemFont(ofSize: 20, weight: .semibold)
         }
         
         descriptionLabel.do {
             $0.text = "금융이 쉬워진다"
-            $0.textColor = .lightGray
+            $0.textColor = .systemGray4
             $0.font = .systemFont(ofSize: 12)
         }
         
