@@ -73,7 +73,7 @@ extension InfoView {
         
         deviderView1.snp.makeConstraints {
             $0.width.equalTo(0.3)
-            $0.height.equalTo(20)
+            $0.height.equalTo(30)
             $0.centerY.equalToSuperview()
             $0.leading.equalTo(evaluationView.snp.trailing)
         }
@@ -86,7 +86,7 @@ extension InfoView {
         
         deviderView2.snp.makeConstraints {
             $0.width.equalTo(0.3)
-            $0.height.equalTo(20)
+            $0.height.equalTo(30)
             $0.centerY.equalToSuperview()
             $0.leading.equalTo(awardView.snp.trailing)
         }
@@ -99,7 +99,7 @@ extension InfoView {
         
         deviderView3.snp.makeConstraints {
             $0.width.equalTo(0.3)
-            $0.height.equalTo(20)
+            $0.height.equalTo(30)
             $0.centerY.equalToSuperview()
             $0.leading.equalTo(ageView.snp.trailing)
         }

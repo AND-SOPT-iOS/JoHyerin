@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */; };
+		D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */; };
+		D01362E02CD50C890027E1CB /* SecondPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */; };
 		D04DE9932CD136D00017478B /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9922CD136D00017478B /* ReviewView.swift */; };
 		D04DE9972CD14E150017478B /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9962CD14E110017478B /* UIButton+.swift */; };
 		D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C092CD08B2200D0BA63 /* AppDetailView.swift */; };
@@ -51,6 +54,9 @@
 
 /* Begin PBXFileReference section */
 		D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35th-SOPT-Seminar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourcePractice.swift; sourceTree = "<group>"; };
+		D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPracticeCell.swift; sourceTree = "<group>"; };
+		D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPracticeCell.swift; sourceTree = "<group>"; };
 		D04DE9922CD136D00017478B /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		D04DE9962CD14E110017478B /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		D0581C092CD08B2200D0BA63 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
@@ -119,6 +125,16 @@
 				D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D01362D82CD50BE10027E1CB /* DiffableDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */,
+				D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */,
+				D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */,
+			);
+			path = DiffableDataSource;
 			sourceTree = "<group>";
 		};
 		D0581C052CD08AE400D0BA63 /* AppDetail */ = {
@@ -214,6 +230,7 @@
 		D05ADF4C2CCCB1DE00D819A5 /* Week3 */ = {
 			isa = PBXGroup;
 			children = (
+				D01362D82CD50BE10027E1CB /* DiffableDataSource */,
 				D05ADF592CCCC76E00D819A5 /* TableView */,
 				D05ADF5A2CCCC77900D819A5 /* CollectionView */,
 			);
@@ -469,6 +486,7 @@
 				D0581C0C2CD08B4300D0BA63 /* AppDetailViewController.swift in Sources */,
 				D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
+				D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */,
 				D0BD45252CCAC9CE00128E74 /* PracticeView.swift in Sources */,
 				D0581C182CD0CB4500D0BA63 /* InfoView.swift in Sources */,
 				D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */,
@@ -485,9 +503,11 @@
 				D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */,
 				D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */,
 				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
+				D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */,
 				D04DE9972CD14E150017478B /* UIButton+.swift in Sources */,
 				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,
 				D0581C1A2CD1257600D0BA63 /* UILabel+.swift in Sources */,
+				D01362E02CD50C890027E1CB /* SecondPracticeCell.swift in Sources */,
 				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
 				D05ADF562CCCB95C00D819A5 /* UIStackView+.swift in Sources */,
 			);
