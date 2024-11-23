@@ -10,6 +10,15 @@
 		D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */; };
 		D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */; };
 		D01362E02CD50C890027E1CB /* SecondPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */; };
+		D01362F42CD5F0D90027E1CB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D01362F32CD5F0D90027E1CB /* Alamofire */; };
+		D01362F92CD5F3B10027E1CB /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362F82CD5F3AD0027E1CB /* Environment.swift */; };
+		D01362FC2CD5F3D50027E1CB /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362FB2CD5F3D40027E1CB /* NetworkError.swift */; };
+		D01362FE2CD5F9290027E1CB /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362FD2CD5F9280027E1CB /* RegisterRequest.swift */; };
+		D01363022CD5F97B0027E1CB /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01363012CD5F97A0027E1CB /* UserService.swift */; };
+		D01363042CD5FEC10027E1CB /* LoginPracticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01363032CD5FEA00027E1CB /* LoginPracticeController.swift */; };
+		D01363092CD604770027E1CB /* LoginRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01363082CD604700027E1CB /* LoginRequestDTO.swift */; };
+		D013630E2CD604D60027E1CB /* LoginResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013630D2CD604CC0027E1CB /* LoginResponseDTO.swift */; };
+		D01363112CD6055F0027E1CB /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01363102CD6055B0027E1CB /* LoginService.swift */; };
 		D04DE9932CD136D00017478B /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9922CD136D00017478B /* ReviewView.swift */; };
 		D04DE9972CD14E150017478B /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9962CD14E110017478B /* UIButton+.swift */; };
 		D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C092CD08B2200D0BA63 /* AppDetailView.swift */; };
@@ -57,6 +66,15 @@
 		D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourcePractice.swift; sourceTree = "<group>"; };
 		D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPracticeCell.swift; sourceTree = "<group>"; };
 		D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPracticeCell.swift; sourceTree = "<group>"; };
+		D01362F72CD5F26B0027E1CB /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		D01362F82CD5F3AD0027E1CB /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		D01362FB2CD5F3D40027E1CB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		D01362FD2CD5F9280027E1CB /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		D01363012CD5F97A0027E1CB /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D01363032CD5FEA00027E1CB /* LoginPracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPracticeController.swift; sourceTree = "<group>"; };
+		D01363082CD604700027E1CB /* LoginRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestDTO.swift; sourceTree = "<group>"; };
+		D013630D2CD604CC0027E1CB /* LoginResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseDTO.swift; sourceTree = "<group>"; };
+		D01363102CD6055B0027E1CB /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		D04DE9922CD136D00017478B /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		D04DE9962CD14E110017478B /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		D0581C092CD08B2200D0BA63 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
@@ -103,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01362F42CD5F0D90027E1CB /* Alamofire in Frameworks */,
 				D0BD45152CBA5D5600128E74 /* SnapKit in Frameworks */,
 				D0BD45182CBA5DA900128E74 /* Then in Frameworks */,
 			);
@@ -114,6 +133,7 @@
 		D004F8982CB1029100D5A2CD = {
 			isa = PBXGroup;
 			children = (
+				D01362F72CD5F26B0027E1CB /* Config.xcconfig */,
 				D0BD44F82CBA5A5D00128E74 /* 35th-SOPT-Seminar */,
 				D004F8A22CB1029100D5A2CD /* Products */,
 			);
@@ -135,6 +155,69 @@
 				D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */,
 			);
 			path = DiffableDataSource;
+			sourceTree = "<group>";
+		};
+		D01362F62CD5F17E0027E1CB /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				D01363052CD601810027E1CB /* Network */,
+				D01363032CD5FEA00027E1CB /* LoginPracticeController.swift */,
+			);
+			path = Week4;
+			sourceTree = "<group>";
+		};
+		D01363052CD601810027E1CB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D013630F2CD605480027E1CB /* Base */,
+				D01363072CD602F50027E1CB /* Join */,
+				D01363062CD602EC0027E1CB /* Login */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D01363062CD602EC0027E1CB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D013630A2CD6047D0027E1CB /* DTO */,
+				D01363102CD6055B0027E1CB /* LoginService.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D01363072CD602F50027E1CB /* Join */ = {
+			isa = PBXGroup;
+			children = (
+				D013630C2CD6049B0027E1CB /* DTO */,
+				D01363012CD5F97A0027E1CB /* UserService.swift */,
+			);
+			path = Join;
+			sourceTree = "<group>";
+		};
+		D013630A2CD6047D0027E1CB /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				D01363082CD604700027E1CB /* LoginRequestDTO.swift */,
+				D013630D2CD604CC0027E1CB /* LoginResponseDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		D013630C2CD6049B0027E1CB /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				D01362FD2CD5F9280027E1CB /* RegisterRequest.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		D013630F2CD605480027E1CB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D01362F82CD5F3AD0027E1CB /* Environment.swift */,
+				D01362FB2CD5F3D40027E1CB /* NetworkError.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		D0581C052CD08AE400D0BA63 /* AppDetail */ = {
@@ -317,6 +400,7 @@
 				D0BD44EB2CBA5A5D00128E74 /* Week1 */,
 				D0BD44F02CBA5A5D00128E74 /* Week2 */,
 				D05ADF4C2CCCB1DE00D819A5 /* Week3 */,
+				D01362F62CD5F17E0027E1CB /* Week4 */,
 			);
 			path = Seminar;
 			sourceTree = "<group>";
@@ -411,6 +495,7 @@
 			packageProductDependencies = (
 				D0BD45142CBA5D5600128E74 /* SnapKit */,
 				D0BD45172CBA5DA900128E74 /* Then */,
+				D01362F32CD5F0D90027E1CB /* Alamofire */,
 			);
 			productName = "35th-SOPT-Seminar";
 			productReference = D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */;
@@ -443,6 +528,7 @@
 			packageReferences = (
 				D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				D0BD45162CBA5DA900128E74 /* XCRemoteSwiftPackageReference "Then" */,
+				D01362F22CD5F0D90027E1CB /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D004F8A22CB1029100D5A2CD /* Products */;
@@ -475,18 +561,23 @@
 				D0581C122CD0C47200D0BA63 /* NewIssueView.swift in Sources */,
 				D05ADF5C2CCCC84500D819A5 /* PhotoCell.swift in Sources */,
 				D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */,
+				D013630E2CD604D60027E1CB /* LoginResponseDTO.swift in Sources */,
 				D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */,
 				D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */,
 				D0BD45292CCAD41100128E74 /* PracticeViewController_MVC.swift in Sources */,
 				D05ADF5E2CCCCF3E00D819A5 /* Photo.swift in Sources */,
 				D0BD44FF2CBA5A5D00128E74 /* NicknameViewController_Delegate.swift in Sources */,
+				D01362F92CD5F3B10027E1CB /* Environment.swift in Sources */,
 				D0BD45102CBA5BF200128E74 /* UIView+.swift in Sources */,
 				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
 				D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */,
 				D0581C0C2CD08B4300D0BA63 /* AppDetailViewController.swift in Sources */,
 				D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
+				D01363042CD5FEC10027E1CB /* LoginPracticeController.swift in Sources */,
 				D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */,
+				D01362FC2CD5F3D50027E1CB /* NetworkError.swift in Sources */,
+				D01363022CD5F97B0027E1CB /* UserService.swift in Sources */,
 				D0BD45252CCAC9CE00128E74 /* PracticeView.swift in Sources */,
 				D0581C182CD0CB4500D0BA63 /* InfoView.swift in Sources */,
 				D0BD45122CBA5C3700128E74 /* ScrollViewPracticeViewController.swift in Sources */,
@@ -500,7 +591,9 @@
 				D0581C102CD0C3FE00D0BA63 /* HeaderView.swift in Sources */,
 				D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */,
 				D0581C1C2CD1263E00D0BA63 /* PreviewView.swift in Sources */,
+				D01363092CD604770027E1CB /* LoginRequestDTO.swift in Sources */,
 				D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */,
+				D01362FE2CD5F9290027E1CB /* RegisterRequest.swift in Sources */,
 				D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */,
 				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
 				D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */,
@@ -508,6 +601,7 @@
 				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,
 				D0581C1A2CD1257600D0BA63 /* UILabel+.swift in Sources */,
 				D01362E02CD50C890027E1CB /* SecondPracticeCell.swift in Sources */,
+				D01363112CD6055F0027E1CB /* LoginService.swift in Sources */,
 				D0BD45042CBA5A5D00128E74 /* ViewController.swift in Sources */,
 				D05ADF562CCCB95C00D819A5 /* UIStackView+.swift in Sources */,
 			);
@@ -583,6 +677,7 @@
 		};
 		D004F8B72CB1029400D5A2CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01362F72CD5F26B0027E1CB /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -646,6 +741,7 @@
 		};
 		D004F8B82CB1029400D5A2CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01362F72CD5F26B0027E1CB /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -724,6 +820,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D01362F22CD5F0D90027E1CB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.1;
+			};
+		};
 		D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -743,6 +847,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D01362F32CD5F0D90027E1CB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D01362F22CD5F0D90027E1CB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		D0BD45142CBA5D5600128E74 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */;
