@@ -6,10 +6,15 @@
 //
 
 import UIKit
+import SwiftUI
 
 import SnapKit
 
 final class BannerCell: UICollectionViewCell {
+    
+    //MERK: - Func
+    
+    private var swiftUIView = UIView()
     
     //MARK: - UI Properties
     
@@ -30,9 +35,9 @@ final class BannerCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        setupStyle()
-        setupHierarchy()
-        setupLayout()
+//        setupStyle()
+//        setupHierarchy()
+//        setupLayout()
     }
     
     required init?(coder: NSCoder) {
@@ -133,7 +138,16 @@ extension BannerCell {
     
     //MARK: - Func
     
-    func configureCell() {
+    func configureCell(with data: BannerModel) {
+        let swiftUICell = BannerCell_SwiftUI(app: data)
         
+        let hostingController = UIHostingController(rootView: swiftUICell)
+        swiftUIView = hostingController.view
+
+        contentView.addSubview(swiftUIView)
+        swiftUIView.snp.makeConstraints {
+            $0.horizontalEdges.equalToSuperview()
+            $0.height.equalTo(300)
+        }
     }
 }

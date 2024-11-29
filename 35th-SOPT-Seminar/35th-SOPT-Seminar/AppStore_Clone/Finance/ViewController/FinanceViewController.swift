@@ -17,6 +17,8 @@ final class FinanceViewController: UIViewController {
     
     private let rootView = FinanceView()
     
+    private let bannerData = BannerModel.mock()
+    
     var dataSource: UICollectionViewDiffableDataSource<SectionType, Int>!
     
     // MARK: - Life Cycle
@@ -42,6 +44,7 @@ extension FinanceViewController {
             switch SectionType(rawValue: indexPath.section) {
             case .banner:
                 guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: BannerCell.className, for: indexPath) as? BannerCell else { return UICollectionViewCell() }
+                cell.configureCell(with: self.bannerData[indexPath.row])
                 return cell
             default:
                 break
