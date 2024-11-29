@@ -27,8 +27,7 @@ enum CompositionalLayoutManager {
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
         
         let section = NSCollectionLayoutSection(group: group)
-        section.orthogonalScrollingBehavior = .groupPaging
-        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 10, bottom: 35, trailing: 10)
+        section.orthogonalScrollingBehavior = .groupPagingCentered
         
         return section
     }

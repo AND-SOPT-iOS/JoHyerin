@@ -19,7 +19,7 @@ struct BannerCell_SwiftUI: View {
             appHeader
             appBannerImage
         }
-        .padding(.horizontal, 10)
+        .padding(.horizontal, 5)
     }
     
     var appHeader: some View {
