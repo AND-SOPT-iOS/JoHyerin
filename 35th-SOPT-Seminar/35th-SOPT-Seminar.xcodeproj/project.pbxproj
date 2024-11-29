@@ -46,6 +46,8 @@
 		D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF572CCCC55500D819A5 /* CollectionViewPractice.swift */; };
 		D05ADF5C2CCCC84500D819A5 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF5B2CCCC84500D819A5 /* PhotoCell.swift */; };
 		D05ADF5E2CCCCF3E00D819A5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF5D2CCCCF3900D819A5 /* Photo.swift */; };
+		D0914B072CF9E05F00B3693B /* BannerCell_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0914B062CF9E05300B3693B /* BannerCell_SwiftUI.swift */; };
+		D0914B092CF9E7E800B3693B /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0914B082CF9E7E500B3693B /* BannerModel.swift */; };
 		D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */; };
 		D0BD44FB2CBA5A5D00128E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F52CBA5A5D00128E74 /* LaunchScreen.storyboard */; };
 		D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */; };
@@ -107,6 +109,8 @@
 		D05ADF572CCCC55500D819A5 /* CollectionViewPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPractice.swift; sourceTree = "<group>"; };
 		D05ADF5B2CCCC84500D819A5 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		D05ADF5D2CCCCF3900D819A5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D0914B062CF9E05300B3693B /* BannerCell_SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell_SwiftUI.swift; sourceTree = "<group>"; };
+		D0914B082CF9E7E500B3693B /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
 		D0BD44E92CBA5A5D00128E74 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D0BD44EA2CBA5A5D00128E74 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		D0BD44EC2CBA5A5D00128E74 /* NicknameViewController_Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NicknameViewController_Closure.swift; sourceTree = "<group>"; };
@@ -165,6 +169,59 @@
 				D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */,
 			);
 			path = DiffableDataSource;
+			sourceTree = "<group>";
+		};
+		D01362E12CD54A080027E1CB /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				D01362EB2CD54E320027E1CB /* Component */,
+				D01362E92CD54DE70027E1CB /* Model */,
+				D01362E32CD54A370027E1CB /* View */,
+				D01362E22CD54A300027E1CB /* ViewController */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		D01362E22CD54A300027E1CB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D01362E32CD54A370027E1CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D01362EA2CD54E2E0027E1CB /* Cell */,
+				D01362E72CD54A990027E1CB /* FinanceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D01362E92CD54DE70027E1CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0914B082CF9E7E500B3693B /* BannerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D01362EA2CD54E2E0027E1CB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D0914B062CF9E05300B3693B /* BannerCell_SwiftUI.swift */,
+				D01362EC2CD54EE10027E1CB /* BannerCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D01362EB2CD54E320027E1CB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		D01362F62CD5F17E0027E1CB /* Week4 */ = {
@@ -228,57 +285,6 @@
 				D01362FB2CD5F3D40027E1CB /* NetworkError.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		D01362E12CD54A080027E1CB /* Finance */ = {
-			isa = PBXGroup;
-			children = (
-				D01362EB2CD54E320027E1CB /* Component */,
-				D01362E92CD54DE70027E1CB /* Model */,
-				D01362E32CD54A370027E1CB /* View */,
-				D01362E22CD54A300027E1CB /* ViewController */,
-			);
-			path = Finance;
-			sourceTree = "<group>";
-		};
-		D01362E22CD54A300027E1CB /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		D01362E32CD54A370027E1CB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D01362EA2CD54E2E0027E1CB /* Cell */,
-				D01362E72CD54A990027E1CB /* FinanceView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D01362E92CD54DE70027E1CB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D01362EA2CD54E2E0027E1CB /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				D01362EC2CD54EE10027E1CB /* BannerCell.swift */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		D01362EB2CD54E320027E1CB /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */,
-			);
-			path = Component;
 			sourceTree = "<group>";
 		};
 		D0581C052CD08AE400D0BA63 /* AppDetail */ = {
@@ -615,7 +621,9 @@
 				D05ADF542CCCB81A00D819A5 /* ChartCell.swift in Sources */,
 				D0581C122CD0C47200D0BA63 /* NewIssueView.swift in Sources */,
 				D05ADF5C2CCCC84500D819A5 /* PhotoCell.swift in Sources */,
+				D0914B092CF9E7E800B3693B /* BannerModel.swift in Sources */,
 				D0BD44FC2CBA5A5D00128E74 /* DetailViewController.swift in Sources */,
+				D0914B072CF9E05F00B3693B /* BannerCell_SwiftUI.swift in Sources */,
 				D013630E2CD604D60027E1CB /* LoginResponseDTO.swift in Sources */,
 				D0BD44FD2CBA5A5D00128E74 /* PracticeViewController.swift in Sources */,
 				D0BD44FE2CBA5A5D00128E74 /* NicknameViewController_Closure.swift in Sources */,
