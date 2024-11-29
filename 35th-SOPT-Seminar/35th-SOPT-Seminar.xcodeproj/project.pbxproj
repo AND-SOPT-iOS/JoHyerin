@@ -12,7 +12,9 @@
 		D01362E02CD50C890027E1CB /* SecondPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */; };
 		D01362E62CD54A5D0027E1CB /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */; };
 		D01362E82CD54A990027E1CB /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362E72CD54A990027E1CB /* FinanceView.swift */; };
+		D01362ED2CD54EF70027E1CB /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362EC2CD54EE10027E1CB /* BannerCell.swift */; };
 		D01362EF2CD54F4E0027E1CB /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362EE2CD54F470027E1CB /* NSObject+.swift */; };
+		D01362F12CD5554F0027E1CB /* CompositionalLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */; };
 		D04DE9932CD136D00017478B /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9922CD136D00017478B /* ReviewView.swift */; };
 		D04DE9972CD14E150017478B /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9962CD14E110017478B /* UIButton+.swift */; };
 		D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C092CD08B2200D0BA63 /* AppDetailView.swift */; };
@@ -62,7 +64,9 @@
 		D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPracticeCell.swift; sourceTree = "<group>"; };
 		D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
 		D01362E72CD54A990027E1CB /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		D01362EC2CD54EE10027E1CB /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
 		D01362EE2CD54F470027E1CB /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
+		D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutManager.swift; sourceTree = "<group>"; };
 		D04DE9922CD136D00017478B /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		D04DE9962CD14E110017478B /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		D0581C092CD08B2200D0BA63 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
@@ -178,9 +182,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		D01362EA2CD54E2E0027E1CB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D01362EC2CD54EE10027E1CB /* BannerCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		D01362EB2CD54E320027E1CB /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -527,6 +540,7 @@
 				D0BD45002CBA5A5D00128E74 /* PracticeViewController_Closure.swift in Sources */,
 				D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */,
 				D0581C0C2CD08B4300D0BA63 /* AppDetailViewController.swift in Sources */,
+				D01362F12CD5554F0027E1CB /* CompositionalLayoutManager.swift in Sources */,
 				D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
 				D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */,
@@ -548,6 +562,7 @@
 				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
 				D01362E82CD54A990027E1CB /* FinanceView.swift in Sources */,
 				D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */,
+				D01362ED2CD54EF70027E1CB /* BannerCell.swift in Sources */,
 				D01362EF2CD54F4E0027E1CB /* NSObject+.swift in Sources */,
 				D04DE9972CD14E150017478B /* UIButton+.swift in Sources */,
 				D0BD45272CCAD1D600128E74 /* PracticeModel.swift in Sources */,

@@ -14,7 +14,7 @@ final class FinanceView: UIView {
 
     //MARK: - UI Properties
     
-    private lazy var financeCollectionView = UICollectionView()
+    lazy var financeCollectionView = UICollectionView(frame: .zero, collectionViewLayout: CompositionalLayoutManager.createLayout())
         
     // MARK: - Life Cycle
     
@@ -37,6 +37,11 @@ extension FinanceView {
     
     private func setupStyle() {
         backgroundColor = .systemBackground
+        
+        financeCollectionView.do {
+            $0.backgroundColor = .clear
+            $0.register(BannerCell.self, forCellWithReuseIdentifier: BannerCell.className)
+        }
     }
     
     private func setupHierarchy() {
