@@ -11,12 +11,10 @@ import SwiftUI
 import SnapKit
 
 final class BannerCell: UICollectionViewCell {
-    
-    //MERK: - Func
-    
-    private var swiftUIView = UIView()
-    
+   
     //MARK: - UI Properties
+    
+    private var cellView = UIView()
     
     private let appTypeLabel = UILabel()
     private let appTitleLabel = UILabel()
@@ -142,10 +140,10 @@ extension BannerCell {
         let swiftUICell = BannerCell_SwiftUI(app: data)
         
         let hostingController = UIHostingController(rootView: swiftUICell)
-        swiftUIView = hostingController.view
+        cellView = hostingController.view
 
-        contentView.addSubview(swiftUIView)
-        swiftUIView.snp.makeConstraints {
+        contentView.addSubview(cellView)
+        cellView.snp.makeConstraints {
             $0.horizontalEdges.equalToSuperview()
             $0.height.equalTo(300)
         }
