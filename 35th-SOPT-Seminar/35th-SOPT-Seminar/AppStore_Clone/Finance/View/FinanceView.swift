@@ -41,6 +41,8 @@ extension FinanceView {
         financeCollectionView.do {
             $0.backgroundColor = .clear
             $0.register(BannerCell.self, forCellWithReuseIdentifier: BannerCell.className)
+            $0.register(AppCell.self, forCellWithReuseIdentifier: AppCell.className)
+            $0.register(AppHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: AppHeaderView.className)
         }
     }
     

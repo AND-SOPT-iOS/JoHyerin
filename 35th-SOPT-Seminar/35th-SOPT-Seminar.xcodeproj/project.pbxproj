@@ -10,6 +10,11 @@
 		D01362DC2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */; };
 		D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */; };
 		D01362E02CD50C890027E1CB /* SecondPracticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */; };
+		D01362E62CD54A5D0027E1CB /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */; };
+		D01362E82CD54A990027E1CB /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362E72CD54A990027E1CB /* FinanceView.swift */; };
+		D01362ED2CD54EF70027E1CB /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362EC2CD54EE10027E1CB /* BannerCell.swift */; };
+		D01362EF2CD54F4E0027E1CB /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362EE2CD54F470027E1CB /* NSObject+.swift */; };
+		D01362F12CD5554F0027E1CB /* CompositionalLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */; };
 		D01362F42CD5F0D90027E1CB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D01362F32CD5F0D90027E1CB /* Alamofire */; };
 		D01362F92CD5F3B10027E1CB /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362F82CD5F3AD0027E1CB /* Environment.swift */; };
 		D01362FC2CD5F3D50027E1CB /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362FB2CD5F3D40027E1CB /* NetworkError.swift */; };
@@ -19,11 +24,6 @@
 		D01363092CD604770027E1CB /* LoginRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01363082CD604700027E1CB /* LoginRequestDTO.swift */; };
 		D013630E2CD604D60027E1CB /* LoginResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013630D2CD604CC0027E1CB /* LoginResponseDTO.swift */; };
 		D01363112CD6055F0027E1CB /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01363102CD6055B0027E1CB /* LoginService.swift */; };
-		D01362E62CD54A5D0027E1CB /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */; };
-		D01362E82CD54A990027E1CB /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362E72CD54A990027E1CB /* FinanceView.swift */; };
-		D01362ED2CD54EF70027E1CB /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362EC2CD54EE10027E1CB /* BannerCell.swift */; };
-		D01362EF2CD54F4E0027E1CB /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362EE2CD54F470027E1CB /* NSObject+.swift */; };
-		D01362F12CD5554F0027E1CB /* CompositionalLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */; };
 		D04DE9932CD136D00017478B /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9922CD136D00017478B /* ReviewView.swift */; };
 		D04DE9972CD14E150017478B /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04DE9962CD14E110017478B /* UIButton+.swift */; };
 		D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C092CD08B2200D0BA63 /* AppDetailView.swift */; };
@@ -34,6 +34,9 @@
 		D0581C182CD0CB4500D0BA63 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C172CD0CB4500D0BA63 /* InfoView.swift */; };
 		D0581C1A2CD1257600D0BA63 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C192CD1257100D0BA63 /* UILabel+.swift */; };
 		D0581C1C2CD1263E00D0BA63 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0581C1B2CD1263E00D0BA63 /* PreviewView.swift */; };
+		D059FDC52CFDEAB2003D4A0C /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059FDC42CFDEAAF003D4A0C /* AppCell.swift */; };
+		D059FDC72CFEFCC1003D4A0C /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059FDC62CFEFCBC003D4A0C /* AppModel.swift */; };
+		D059FDC92CFF21D1003D4A0C /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D059FDC82CFF21CC003D4A0C /* AppHeaderView.swift */; };
 		D05ADF452CCB7B7600D819A5 /* PracticeModel_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */; };
 		D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */; };
 		D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */; };
@@ -46,6 +49,8 @@
 		D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF572CCCC55500D819A5 /* CollectionViewPractice.swift */; };
 		D05ADF5C2CCCC84500D819A5 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF5B2CCCC84500D819A5 /* PhotoCell.swift */; };
 		D05ADF5E2CCCCF3E00D819A5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05ADF5D2CCCCF3900D819A5 /* Photo.swift */; };
+		D06B1CE22D0835670022A9B3 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D06B1CE12D0835670022A9B3 /* RxCocoa */; };
+		D06B1CE42D0835670022A9B3 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D06B1CE32D0835670022A9B3 /* RxSwift */; };
 		D0914B072CF9E05F00B3693B /* BannerCell_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0914B062CF9E05300B3693B /* BannerCell_SwiftUI.swift */; };
 		D0914B092CF9E7E800B3693B /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0914B082CF9E7E500B3693B /* BannerModel.swift */; };
 		D0BD44F92CBA5A5D00128E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD44F22CBA5A5D00128E74 /* Assets.xcassets */; };
@@ -73,6 +78,11 @@
 		D01362DB2CD50C3E0027E1CB /* DiffableDataSourcePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourcePractice.swift; sourceTree = "<group>"; };
 		D01362DD2CD50C7E0027E1CB /* FirstPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPracticeCell.swift; sourceTree = "<group>"; };
 		D01362DF2CD50C880027E1CB /* SecondPracticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPracticeCell.swift; sourceTree = "<group>"; };
+		D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		D01362E72CD54A990027E1CB /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
+		D01362EC2CD54EE10027E1CB /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		D01362EE2CD54F470027E1CB /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
+		D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutManager.swift; sourceTree = "<group>"; };
 		D01362F72CD5F26B0027E1CB /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		D01362F82CD5F3AD0027E1CB /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 		D01362FB2CD5F3D40027E1CB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -82,11 +92,6 @@
 		D01363082CD604700027E1CB /* LoginRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestDTO.swift; sourceTree = "<group>"; };
 		D013630D2CD604CC0027E1CB /* LoginResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseDTO.swift; sourceTree = "<group>"; };
 		D01363102CD6055B0027E1CB /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
-		D01362E52CD54A5D0027E1CB /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
-		D01362E72CD54A990027E1CB /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceView.swift; sourceTree = "<group>"; };
-		D01362EC2CD54EE10027E1CB /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
-		D01362EE2CD54F470027E1CB /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
-		D01362F02CD5552B0027E1CB /* CompositionalLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionalLayoutManager.swift; sourceTree = "<group>"; };
 		D04DE9922CD136D00017478B /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		D04DE9962CD14E110017478B /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		D0581C092CD08B2200D0BA63 /* AppDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
@@ -97,6 +102,9 @@
 		D0581C172CD0CB4500D0BA63 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		D0581C192CD1257100D0BA63 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 		D0581C1B2CD1263E00D0BA63 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		D059FDC42CFDEAAF003D4A0C /* AppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
+		D059FDC62CFEFCBC003D4A0C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		D059FDC82CFF21CC003D4A0C /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeaderView.swift; sourceTree = "<group>"; };
 		D05ADF442CCB7B7100D819A5 /* PracticeModel_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeModel_MVVM.swift; sourceTree = "<group>"; };
 		D05ADF462CCB7D3600D819A5 /* PracticeView_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView_MVVM.swift; sourceTree = "<group>"; };
 		D05ADF482CCB7F1400D819A5 /* PracticeViewController_MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController_MVVM.swift; sourceTree = "<group>"; };
@@ -137,6 +145,8 @@
 			files = (
 				D01362F42CD5F0D90027E1CB /* Alamofire in Frameworks */,
 				D0BD45152CBA5D5600128E74 /* SnapKit in Frameworks */,
+				D06B1CE42D0835670022A9B3 /* RxSwift in Frameworks */,
+				D06B1CE22D0835670022A9B3 /* RxCocoa in Frameworks */,
 				D0BD45182CBA5DA900128E74 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				D0914B082CF9E7E500B3693B /* BannerModel.swift */,
+				D059FDC62CFEFCBC003D4A0C /* AppModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,6 +223,8 @@
 			children = (
 				D0914B062CF9E05300B3693B /* BannerCell_SwiftUI.swift */,
 				D01362EC2CD54EE10027E1CB /* BannerCell.swift */,
+				D059FDC82CFF21CC003D4A0C /* AppHeaderView.swift */,
+				D059FDC42CFDEAAF003D4A0C /* AppCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -557,6 +570,8 @@
 				D0BD45142CBA5D5600128E74 /* SnapKit */,
 				D0BD45172CBA5DA900128E74 /* Then */,
 				D01362F32CD5F0D90027E1CB /* Alamofire */,
+				D06B1CE12D0835670022A9B3 /* RxCocoa */,
+				D06B1CE32D0835670022A9B3 /* RxSwift */,
 			);
 			productName = "35th-SOPT-Seminar";
 			productReference = D004F8A12CB1029100D5A2CD /* 35th-SOPT-Seminar.app */;
@@ -590,6 +605,7 @@
 				D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				D0BD45162CBA5DA900128E74 /* XCRemoteSwiftPackageReference "Then" */,
 				D01362F22CD5F0D90027E1CB /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D06B1CE02D0835670022A9B3 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D004F8A22CB1029100D5A2CD /* Products */;
@@ -640,6 +656,7 @@
 				D05ADF582CCCC56200D819A5 /* CollectionViewPractice.swift in Sources */,
 				D0BD45012CBA5A5D00128E74 /* PracticeViewController_Delegate.swift in Sources */,
 				D01363042CD5FEC10027E1CB /* LoginPracticeController.swift in Sources */,
+				D059FDC92CFF21D1003D4A0C /* AppHeaderView.swift in Sources */,
 				D01362DE2CD50C7E0027E1CB /* FirstPracticeCell.swift in Sources */,
 				D01362FC2CD5F3D50027E1CB /* NetworkError.swift in Sources */,
 				D01363022CD5F97B0027E1CB /* UserService.swift in Sources */,
@@ -653,11 +670,13 @@
 				D05ADF4E2CCCB51200D819A5 /* TableViewPractice.swift in Sources */,
 				D05ADF502CCCB5BA00D819A5 /* App.swift in Sources */,
 				D0BD45032CBA5A5D00128E74 /* SceneDelegate.swift in Sources */,
+				D059FDC72CFEFCC1003D4A0C /* AppModel.swift in Sources */,
 				D0581C102CD0C3FE00D0BA63 /* HeaderView.swift in Sources */,
 				D05ADF4B2CCB83BB00D819A5 /* PracticeViewModel.swift in Sources */,
 				D0581C1C2CD1263E00D0BA63 /* PreviewView.swift in Sources */,
 				D01363092CD604770027E1CB /* LoginRequestDTO.swift in Sources */,
 				D05ADF492CCB7F2000D819A5 /* PracticeViewController_MVVM.swift in Sources */,
+				D059FDC52CFDEAB2003D4A0C /* AppCell.swift in Sources */,
 				D01362FE2CD5F9290027E1CB /* RegisterRequest.swift in Sources */,
 				D0581C0A2CD08B2200D0BA63 /* AppDetailView.swift in Sources */,
 				D05ADF472CCB7D3C00D819A5 /* PracticeView_MVVM.swift in Sources */,
@@ -896,6 +915,14 @@
 				minimumVersion = 5.10.1;
 			};
 		};
+		D06B1CE02D0835670022A9B3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
+		};
 		D0BD45132CBA5D5600128E74 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -919,6 +946,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D01362F22CD5F0D90027E1CB /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		D06B1CE12D0835670022A9B3 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D06B1CE02D0835670022A9B3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		D06B1CE32D0835670022A9B3 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D06B1CE02D0835670022A9B3 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 		D0BD45142CBA5D5600128E74 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;

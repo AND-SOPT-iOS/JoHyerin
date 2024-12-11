@@ -11,14 +11,24 @@ import SnapKit
 import Then
 
 final class HeaderView: UIView {
-
+    
+    //MARK: - Properties
+    
+    var downloadState: DownloadState = .download {
+        didSet {
+            if downloadState == .installed{
+                downloadButton.setTitle("열기", for: .normal)
+            }
+        }
+    }
+    
     //MARK: - UI Properties
     
     private let appIconImageView = UIImageView()
     private let appLabelStackView = UIStackView()
     private let appNameLabel = UILabel()
     private let descriptionLabel = UILabel()
-    private let downloadButton = UIButton()
+    let downloadButton = UIButton()
     private let shareButton = UIButton()
     private let appButtonStackView = UIStackView()
         
@@ -76,7 +86,11 @@ extension HeaderView {
         }
         
         downloadButton.do {
-            $0.setTitle("열기", for: .normal)
+            if downloadState == .download {
+                $0.setTitle("받기", for: .normal)
+            } else if downloadState == .installed {
+                $0.setTitle("열기", for: .normal)
+            }
             $0.setTitleColor(.white, for: .normal)
             $0.titleLabel?.font = .systemFont(ofSize: 13, weight: .heavy)
             $0.backgroundColor = .systemBlue

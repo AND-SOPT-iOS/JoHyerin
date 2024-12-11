@@ -16,7 +16,7 @@ final class AppDetailView: UIView {
     
     private let scrollView = UIScrollView()
     private let contentView = UIView()
-    private let headerView = HeaderView()
+    let headerView = HeaderView()
     private let infoView = InfoView()
     private let newIssueView = NewIssueView()
     private let previewView = PreviewView()
