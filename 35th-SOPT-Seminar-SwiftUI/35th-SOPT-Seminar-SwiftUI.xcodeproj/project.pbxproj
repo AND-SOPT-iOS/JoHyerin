@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03904A52CFADA890070B0F0 /* SheetPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03904A42CFADA690070B0F0 /* SheetPractice.swift */; };
+		D0F2F9AF2CFAE195003B8B89 /* GridPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F2F9AE2CFAE18B003B8B89 /* GridPractice.swift */; };
 		D0F41D842CF1945F00689EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F41D7E2CF1945F00689EBC /* Preview Assets.xcassets */; };
 		D0F41D852CF1945F00689EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F41D802CF1945F00689EBC /* Assets.xcassets */; };
 		D0F41D862CF1945F00689EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F41D812CF1945F00689EBC /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D03904A42CFADA690070B0F0 /* SheetPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetPractice.swift; sourceTree = "<group>"; };
+		D0F2F9AE2CFAE18B003B8B89 /* GridPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPractice.swift; sourceTree = "<group>"; };
 		D0F41D632CF1880500689EBC /* 35th-SOPT-Seminar-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "35th-SOPT-Seminar-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F41D7E2CF1945F00689EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0F41D802CF1945F00689EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +40,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D006E4192D095D9000BF8767 /* week6 */ = {
+			isa = PBXGroup;
+			children = (
+				D0F41D812CF1945F00689EBC /* ContentView.swift */,
+				D0F41D8B2CF1951D00689EBC /* ChartRow.swift */,
+				D0F41D882CF194BF00689EBC /* Model */,
+			);
+			path = week6;
+			sourceTree = "<group>";
+		};
+		D03904A32CFADA590070B0F0 /* week7 */ = {
+			isa = PBXGroup;
+			children = (
+				D03904A42CFADA690070B0F0 /* SheetPractice.swift */,
+				D0F2F9AE2CFAE18B003B8B89 /* GridPractice.swift */,
+			);
+			path = week7;
+			sourceTree = "<group>";
+		};
 		D0F41D5A2CF1880400689EBC = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +89,8 @@
 				D0F41D822CF1945F00689EBC /* Seminar.swift */,
 				D0F41D802CF1945F00689EBC /* Assets.xcassets */,
 				D0F41D7F2CF1945F00689EBC /* Preview Content */,
-				D0F41D882CF194BF00689EBC /* Model */,
-				D0F41D812CF1945F00689EBC /* ContentView.swift */,
-				D0F41D8B2CF1951D00689EBC /* ChartRow.swift */,
+				D006E4192D095D9000BF8767 /* week6 */,
+				D03904A32CFADA590070B0F0 /* week7 */,
 			);
 			path = "35th-SOPT-Seminar-SwiftUI";
 			sourceTree = "<group>";
@@ -156,6 +178,8 @@
 			files = (
 				D0F41D8C2CF1952D00689EBC /* ChartRow.swift in Sources */,
 				D0F41D8A2CF194DE00689EBC /* AppModel.swift in Sources */,
+				D0F2F9AF2CFAE195003B8B89 /* GridPractice.swift in Sources */,
+				D03904A52CFADA890070B0F0 /* SheetPractice.swift in Sources */,
 				D0F41D862CF1945F00689EBC /* ContentView.swift in Sources */,
 				D0F41D872CF1945F00689EBC /* Seminar.swift in Sources */,
 			);

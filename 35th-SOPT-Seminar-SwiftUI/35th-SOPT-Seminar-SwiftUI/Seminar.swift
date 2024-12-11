@@ -11,7 +11,7 @@ import SwiftUI
 struct Seminar: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LazyVGridExampleView()
         }
     }
 }
